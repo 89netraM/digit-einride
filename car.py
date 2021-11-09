@@ -48,18 +48,3 @@ if __name__ == "__main__":
                               on_close=on_close)
 
     ws.run_forever()
-
-
-# adress = "http://donkeycar:8887/video"
-# cap = cv2.VideoCapture(adress)
-# # height, width, number of channels in image
-# ret, frame = cap.read()
-# height = frame.shape[0]
-# width = frame.shape[1]
-# #write that to disk
-# frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-# frame = frame[(int)(height/2):height, 0:width]
-# frame = cv2.GaussianBlur(frame, (5,5), 1.5)
-# _, max_val, _, max_loc= cv2.minMaxLoc(frame)
-# frame = cv2.circle(frame, max_loc, 5, 0xff0000)
-# cv2.imwrite('screenshot.png',frame)
