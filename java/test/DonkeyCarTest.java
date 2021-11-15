@@ -1,4 +1,4 @@
-import api.DonkeyCar;
+import main.java.api.DonkeyCar;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
