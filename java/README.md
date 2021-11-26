@@ -7,13 +7,12 @@ The project is also configured with OpenCV which can be used to process the imag
 # Setup
 The project is configured with maven and has two dependencies, these are JUnit and OpenCV. You can initialize and run the project using maven commands or directly through an IDE such as IntelliJ IDEA.
 
-## Initialize:
+## Clean and build:
 ```
-mvn init
-```
-
-## Run:
-```
-mvn clean compile exec:java
+mvn clean compile
 ```
 
+## Run
+```
+mvn exec:java
+```
